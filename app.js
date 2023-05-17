@@ -1,3 +1,4 @@
+// перед началом работы не забудьте установить все зависимости командой в терминале 'npm i'
 const { Spot } = require('@binance/connector'); // api Binance
 const client = new Spot(apiKey, apiSecret); // Доступ к учётной записи на Binance
 const axios = require('axios'); // для фиксирования значений в GoogleSheets.
